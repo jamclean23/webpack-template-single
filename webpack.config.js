@@ -29,7 +29,7 @@ module.exports = {
             // html-loader processes asset management in html source files
             {
                 test: /\.html$/i,
-                use: 'html-loader',
+                loader: 'html-loader',
             },
         ],
     },

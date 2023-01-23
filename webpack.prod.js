@@ -35,7 +35,7 @@ module.exports = merge(common, {
     ].concat(pages.map((page) => {
         return new HtmlWebpackPlugin({
             template: './src/' + page + '/' + page + '.html',
-            filename: page + '/' + page + '-' +'[contenthash]' + '.html',
+            filename: page + '/' + page + '.html',
             inject: true,
             chunks: [page],
             minify: {
