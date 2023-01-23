@@ -9,10 +9,18 @@
     "watch": "webpack --watch --config webpack.prod.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@babel/core": "^7.20.12",
+    "@babel/preset-env": "^7.20.2",
+    "babel-loader": "^9.1.2",
     "css-loader": "^6.7.3",
     "html-loader": "^4.2.0",
     "html-webpack-plugin": "^5.5.0",
