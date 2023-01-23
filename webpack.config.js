@@ -37,10 +37,7 @@ module.exports = {
     },
     module: {
         rules: [
-            {
-                test: /\.css$/i,
-                use: ['style-loader', 'css-loader'],
-            },
+
             // html-loader processes asset management in html source files
             {
                 test: /\.html$/i,
