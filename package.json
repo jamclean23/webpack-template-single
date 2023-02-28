@@ -6,7 +6,8 @@
   "scripts": {
     "buildDev": "webpack --config webpack.dev.js",
     "buildProd": "webpack --config webpack.prod.js",
-    "watch": "webpack --watch --config webpack.prod.js",
+    "watchProd": "webpack --watch --config webpack.prod.js",
+    "watchDev": "webpack --watch --config webpack.dev.js",
     "test": "jest"
   },
   "keywords": [],
@@ -28,6 +29,8 @@
     "webpack-merge": "^5.8.0"
   },
   "dependencies": {
-    "css-minimizer-webpack-plugin": "^4.2.2"
+    "css-minimizer-webpack-plugin": "^4.2.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }

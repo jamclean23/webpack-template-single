@@ -1,5 +1,5 @@
 module.exports = {
     pages: [
-        'App'
+        'index'
     ],
 }
