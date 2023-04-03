@@ -13,7 +13,7 @@ module.exports = {
     }, {}),
     // Outputs folder for each entry point
     output: {
-        filename: '[name]/[name].bundle-[contenthash].js',
+        filename: '[name].bundle-[contenthash].js',
         path: path.resolve(__dirname, 'dist'),
         clean: true,
     },
